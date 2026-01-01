@@ -53,19 +53,19 @@ function addAnimation(buttonPressed){
 function addSound(sound){
     switch(sound){
         case "red":
-            new Audio("./sounds/red.mp3").play();
+            new Audio("./red.mp3").play();
             break;
         case "blue":
-            new Audio("./sounds/blue.mp3").play();
+            new Audio("./blue.mp3").play();
             break;
         case "green":
-            new Audio("./sounds/green.mp3").play();
+            new Audio("./green.mp3").play();
             break;
         case "yellow":
-            new Audio("./sounds/yellow.mp3").play();
+            new Audio("./yellow.mp3").play();
             break;  
         default:
-            new Audio("./sounds/wrong.mp3").play();              
+            new Audio("./wrong.mp3").play();              
     }
 }
 
@@ -103,3 +103,4 @@ function startOver(){
 
 
  
+
